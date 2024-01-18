@@ -1,0 +1,37 @@
+/*Moje cast css kodu pro responzivni layout tablu: */
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #94B9EF;
+    padding: 8px;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .table th, .table td {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .table th, .table td {
+        padding: 6px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .table th, .table td {
+        padding: 4px;
+    }
+}
+
+
+
+
+
+
